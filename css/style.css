@@ -1,0 +1,286 @@
+*{
+	margin:0;
+}
+
+body{
+    width: 100%;
+	background-color: rgb(222, 240, 244);
+	color:white;
+}
+
+.base{
+	background-color: rgb(116, 194, 213);
+	margin:65px;
+	width:85%;
+	padding:50px;
+	height: 100%;
+}
+
+.button{
+	background-color: rgb(234, 32, 73);
+	width: 30%;
+	color: white;
+	font-size: 40px;
+	margin-top: 30px;
+	font-weight: 100;
+	text-decoration-line: inherit;
+	 font-family:  'Open Sans Condensed', sans-serif;
+}
+
+
+}
+
+.header {
+	border-bottom: : 4px solid red;
+	width: 30%;
+	height:10px;
+	
+
+}
+
+h1{
+font-family:'Roboto Condensed', sans-serif;
+    
+    margin-top: 27px;
+    font-size: 8em;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+
+
+}
+
+.header p{
+	display: in
+	width: 65%;
+	margin-left:20px;
+	margin-top: 55px;
+	font-size: 20px;
+	letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1.5em;
+   font-family:  'Open Sans Condensed', sans-serif;
+}
+
+.element{
+	width: 60%;
+	border:1px solid red;
+	margin-top: 25px;
+}
+
+
+span{
+	border-bottom: 10px dotted white;
+	margin:0;
+
+}
+
+
+p{
+	line-height: 130%;
+}
+
+	/*Box Verte*/
+
+
+h2{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 40px;
+/*display: inline;*/
+/*margin-left:22px;*/
+font-weight: 100;
+
+}
+
+
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.vert{
+	background-color:rgb(232, 247, 155);
+	color:black;
+	opacity: 0.9;
+	padding:1px;
+	position: absolute;
+	top:22%;
+	width: 30%;
+	right:5.2%;
+	z-index:1;
+} 
+
+.lesblocs{
+
+box-sizing: border-box;
+width: 100%;
+margin-left: 14px;
+margin-top: 50px;
+
+}
+
+li{
+	padding: 13px;
+	width: 60%;
+	font-family: 'Roboto', sans-serif;
+    display: block;
+    
+	font-size: 18px;
+	font-weight: 300;
+}
+	
+
+.vert h3{
+	margin-top: 25px;
+	margin-left: 50px;
+	font-size: 2.3em;
+	font-weight: 100;
+
+}
+
+.blanc{
+	background-color: #F1F9FB;
+	position: absolute;
+	padding:2%;
+	width: 56%;
+	margin-top:10%;
+	left:0;
+	color:black;
+	z-index: 1;
+}
+
+.blanc h2{
+	margin-left: 15%;
+	margin-top: 7px;
+	line-height: 180%;
+}
+
+
+.blanc p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin-left: 15%;
+	margin-top: 7px;
+	line-height: 180%
+}
+
+
+/*.blanc {
+line-height: 200%;
+}*/
+
+.moyen{
+
+box-sizing: border-box;
+width: 100%;
+margin-left: 14px;
+margin-top: 50px;
+}
+
+.about{
+	background-color:rgb(116, 194, 213);
+	margin-top:50%;
+	position: absolute;
+	padding: 20px;
+	width: 35%;
+	right:50%;
+	z-index: 1;
+	color:white;
+	height: 80%;
+}
+
+.about p{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 7px;
+	line-height: 180%
+} 
+	
+.rouge{
+	background-color: rgb(234, 32, 73);
+	opacity: 0.9;
+	width:35%;
+	padding: 25px;
+	color:white;
+	position:absolute; 
+	left:50%;
+    margin-top:50%;
+	z-index: 1;
+	height: 80%;
+	margin-left: 35px;
+}
+
+
+.rouge p {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 7px;
+	line-height: 180%
+}
+
+
+.grobloc{
+	display:inline-flex;
+	margin-top: 50%;
+	padding: 30px;
+}
+
+.blanc2{
+	background-color: #F1F9FB ;
+	color:black;
+	position:relative;
+	width: 66%;
+	padding:52px;
+	left: 31.8%;
+	margin-top: 63.7%;
+	z-index: 3;
+}
+.blanc2 h3{
+	font-family:  'Open Sans Condensed', sans-serif;
+	margin-top: 20px;
+}
+.blanc2 p{
+	line-height: 180%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.blanc2 .element{
+	width: 100%;
+	border:1px solid red;
+	margin-top: 25px;
+}
+
+.blanc3{
+
+	background-color:#F1F9FB;
+	color:black;
+	position: relative;
+	right: 64%;
+	width: 25%;
+	height: 30%;
+    padding: 5%;
+	margin-top:80%;
+	z-index: 2;
+}
+.blanc3 p{
+	line-height: 180%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.element2{
+    width: 40%;
+    padding: 20px;
+    background-color:rgb(232, 247, 155);
+    color: black;
+}
+
+.element2 li{
+	display: inline;
+}
+
+.noir{
+	background-color: #3D4355;
+	width: 24%;
+	height:3100px;
+	padding:40px;
+	opacity: 0.9;
+	position: absolute;
+	top:0;
+	right:0;
+
+}
